@@ -21,10 +21,9 @@ body {
 .caixa-principal {
     display: flex;
     align-items: center;
-    background: url(./src/imagens/rm183-techi-01.jpg);
+    background-image: url(./src/imagens/rm183-techi-01.jpg);
     background-size: cover;
     height: 100vh;
-    padding: 100px;
     justify-content: space-evenly;
 
 }
@@ -108,10 +107,11 @@ body {
     width: 1300px;
     height: 800px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 20px;
     margin-top: 50px;
-
 }
 
 .re4 {
@@ -180,6 +180,48 @@ body {
 
 }
 
+.starbucks {
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.spotify {
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.spotify:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
+        inset 0 0 50px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.starbucks:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
+        inset 0 0 50px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+
+}
+
 .five-nights-at-freddys:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
@@ -207,4 +249,65 @@ body {
 
 .logo-mario {
     height: 100px;
+}
+
+.logo-fnaf {
+    height: 100px;
+}
+
+.logo-star {
+    height: 100px;
+}
+
+.logo-spotify {
+    height: 100px;
+}
+
+
+
+@media (max-width: 1306px) {
+
+    #caixaPrincipal{
+        gap: 40px;
+        width: 100%;
+        
+    
+        
+    }
+
+    #perfil {
+        width: 500px ;
+
+    }
+
+    
+
+    #perfil h1{
+        font-size: 35px;
+    }
+
+    #foto {
+        display: flex;
+        height: 250px;
+        right: 0;
+        
+    }
+
+    #secundaria{
+        display: flex;
+        justify-content: space-around;
+        width: 1179px;
+    }
+
+    #projetos{
+        display: flex;
+        justify-content: center;
+        margin-left: 400px;
+        align-items: center;
+        flex-direction: column;
+        width: 1260px;
+    }
+
+    
+
 }
