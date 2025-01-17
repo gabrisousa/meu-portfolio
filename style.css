@@ -288,12 +288,6 @@ body {
     height: 170px;
 }
 
-.nene {
-    position: absolute;
-    display: none;
-    margin-bottom: 200px;
-}
-
 
 
 @media (max-width: 1306px) {
