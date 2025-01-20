@@ -179,11 +179,19 @@ header h1 {
     font-size: 100px;
     margin-right: 50px;
     flex-wrap: wrap;
+    animation: moveIcons 2s infinite alternate ease-in-out;
 
 }
 
-.java {
+.java  {
     margin-left: 43px;
+
+}
+
+@keyframes moveIcons {
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
+    }
 }
 
 
