@@ -35,17 +35,13 @@ header {
     font-size: 23px;
 }
 
-.about,
-.project,
-.cv {
+.about, .project, .cv {
     text-decoration: none;
     color: white;
 
 }
 
-.about:hover,
-.project:hover,
-.cv:hover {
+.about:hover, .project:hover, .cv:hover {
     color: rgb(49, 127, 205);
     transform: scale(1.03);
 }
@@ -89,7 +85,7 @@ header h1 {
 
 
 .contatos {
-
+    
     display: flex;
     justify-content: center;
     gap: 35px;
@@ -102,9 +98,7 @@ header h1 {
 
 }
 
-.git:hover i,
-.link:hover i,
-.whats:hover i {
+.git:hover i, .link:hover i, .whats:hover i {
     color: gray;
 }
 
@@ -192,10 +186,19 @@ header h1 {
 
 }
 
-.java {
+.java  {
     margin-left: 43px;
 
 }
+
+@keyframes moveIcons {
+    from {
+        transform: translate(-5%, -5%) rotate(-5deg);
+    }
+}
+
+
+
 
 
 .caixa-design {
@@ -230,7 +233,7 @@ header h1 {
 
 
 .meus-projetos {
-
+    
     width: 1350px;
     height: 800px;
     display: flex;
@@ -447,7 +450,7 @@ header h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    
 }
 
 
@@ -508,15 +511,16 @@ header h1 {
     display: flex;
     justify-content: center;
     gap: 35px;
-    margin-top: -40px;
+    margin-top: -40px ;
 }
 
 .contatos2 a {
     font-size: 50px;
     color: black
+
 }
 
-.contatos2 a:hover {
+.contatos2 a:hover{
     color: gray;
 }
 
@@ -525,7 +529,7 @@ footer {
     justify-content: center;
     padding: 25px;
     margin-top: 30px;
-
+    
 
 }
 
@@ -544,47 +548,47 @@ footer {
 
 @media (max-width: 993px) {
 
-    #caixaPrincipal {
+    #caixaPrincipal{
         gap: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
-
-
+        
+    
+        
     }
 
     #perfil {
-        width: 500px;
+        width: 500px ;
 
     }
 
+    
 
-
-    #perfil h1 {
+    #perfil h1{
         font-size: 35px;
     }
 
     #foto {
         margin-top: 16px;
         height: 250px;
-
-
+        
+        
     }
 
-    #secundaria {
+    #secundaria{
         display: flex;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
     }
 
-    #projetos {
-
+    #projetos{
+    
         display: flex;
         flex-direction: column
     }
 
-
+    
 
 }
