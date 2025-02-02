@@ -6,6 +6,7 @@
 
     .caixa{
         width: 100%;
+        min-width: 343px;
         display: block;
         display: flex;
         align-items: center;
@@ -37,16 +38,16 @@
     }
 
     .nome {
-        font-size: 49px;
-    }
-
-     .titulo-perfil {
         font-size: 30px;
     }
 
+     .titulo-perfil {
+        font-size: 17px;
+    }
+
     .minha-foto {
-        margin-top: 30px;
-        height: 300px;
+        margin-top: 20px;
+        height: 260px;
     }
 
     header {
@@ -78,10 +79,9 @@
         background-color: antiquewhite ;
         width: 90%;
         margin-left: 0;
-        height: 70%;
+        height: 700px;
         display: flex;
         justify-content: center;
-        
         flex-direction: column;
         text-align: center;
         
@@ -90,15 +90,16 @@
     .caixa-sobre h1 {
         margin-left: 0;
         margin-top: 1px;
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .caixa-sobre p {
         margin-top: 35px;
-        font-size: 20px;
+        font-size: 16px;
     }
 
-    .contatos {
+    .contatos i {
+        font-size: 35px;
         margin-top: 20px;
     }
 
@@ -109,13 +110,15 @@
     
 
     .icones {
+        display: block;
         display: flex;
-        justify-self: center;
+        align-items: center;
+        justify-content: center;
         margin-top: -10px;
         
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 0;
+       
+        
+        
         
         
         
