@@ -34,6 +34,43 @@
         justify-content: center;
         flex-direction: column;
         
+        
+    }
+
+    .Caixa {
+        display: none;
+        margin-top: -110px;
+    }
+
+    .caixa-contato {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 20px;
+        gap: 20px;
+        
+    
+        
+
+    }
+
+   
+
+    .botao-contact {
+        cursor: pointer;
+        font-size: 23px;
+        border-color: rgb(49, 127, 205);
+        background: transparent;
+        border-radius: 25px;
+        height: 50px;
+        width: 135px;
+        color: white;
+    }
+    
+    .botao-contact:hover {
+        background-color: rgb(49, 127, 205);
+        color: black;
     }
 
     .nome {
