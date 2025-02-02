@@ -22,6 +22,12 @@ header {
     background-color: rgb(22, 22, 22);
 }
 
+.menu-bar  {
+    display: none;
+
+   
+}
+
 
 
 .menu {
@@ -33,6 +39,10 @@ header {
     width: 435px;
     padding: 10px;
     font-size: 23px;
+}
+
+.mudar-icone {
+    display: none;
 }
 
 .about, .project, .cv {

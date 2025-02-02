@@ -15,12 +15,13 @@
 
     .menu {
         display: none;
+        
+        
     }
     
     .caixa-principal {
         display: block;
         display: flex;
-        align-items: center;
         width: 100%;
         justify-content: center;
         flex-direction: column;
@@ -30,7 +31,6 @@
 
     .caixa-perfil {
         display: flex;
-        align-items: center;
         justify-content: center;
         flex-direction: column;
         
@@ -52,10 +52,41 @@
     header {
         width: 100%;
         display: flex;
-        justify-items: center;
+        justify-content: center;
+        align-items: center;
     }
 
+    
+
+
+    .menu-bar  {
+        position: relative;
+        right: -150px;
+        font-size: 20px;
+        color: white;
+        background: transparent;
+        border: none;
+        width: 25px;
+        height: 26px;
+        cursor: pointer;
+        display: block;
+        
+        
+        
+        
+        
+            
+    }
+    
+    
+    .menu-bar:hover {
+        background-color: rgb(57, 56, 56);
+    }
+
+    
+
     header h1 {
+        margin-left: 0;
         font-size: 25px;
         text-align: center;
     }
