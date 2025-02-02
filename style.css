@@ -170,7 +170,6 @@ header h1 {
 
 
 
-
 .icones {
     margin-top: 100px;
     display: flex;
@@ -444,6 +443,10 @@ header h1 {
     height: 150px;
 }
 
+.quarta-caixa {
+    height: 100vh;
+}
+
 .contatar {
     margin-top: 15px;
     display: flex;
@@ -524,6 +527,7 @@ header h1 {
     color: gray;
 }
 
+
 footer {
     display: flex;
     justify-content: center;
@@ -541,54 +545,3 @@ footer {
 }
 
 
-
-
-
-
-
-@media (max-width: 993px) {
-
-    #caixaPrincipal{
-        gap: 40px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        
-    
-        
-    }
-
-    #perfil {
-        width: 500px ;
-
-    }
-
-    
-
-    #perfil h1{
-        font-size: 35px;
-    }
-
-    #foto {
-        margin-top: 16px;
-        height: 250px;
-        
-        
-    }
-
-    #secundaria{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-    }
-
-    #projetos{
-    
-        display: flex;
-        flex-direction: column
-    }
-
-    
-
-}
