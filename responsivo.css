@@ -13,6 +13,10 @@
         flex-direction: column;
     }
 
+    .caixa2 {
+        margin-top: -180px;
+    }
+
     .menu {
         display: none;
         
@@ -99,7 +103,7 @@
 
     .menu-bar  {
         position: relative;
-        right: -140px;
+        right: -112px;
         font-size: 20px;
         color: white;
         background: transparent;
@@ -107,14 +111,7 @@
         width: 25px;
         height: 26px;
         cursor: pointer;
-        display: block;
-        
-        
-        
-        
-        
-        
-            
+        display: block;  
     }
 
     #icone2 {
@@ -125,7 +122,6 @@
         height: 20px;
         cursor: pointer;
         display: none;
-
     }
 
     
@@ -156,8 +152,6 @@
     
 
     .caixa-sobre {
-        
-
         width: 90%;
         margin-left: 0;
         height: 700px;
@@ -165,7 +159,6 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        
     }
 
     .caixa-sobre h1 {
@@ -213,6 +206,7 @@
         flex-direction: column;
         width: 100%;
         height: 2000px;
+        background-color: black;
         margin-top: 100px;
         
     }
@@ -224,7 +218,6 @@
     .meus-projetos {
         display: flex;
         width: 100%;
-        
     }
 
     .quarta-caixa {
@@ -249,7 +242,7 @@
     }
 
     .form-contato {
-        width: 150%;
+        width: 140%;
         display: flex;
         align-items: center;
         justify-content: center ;
@@ -285,13 +278,4 @@
         font-size: 15px;
     }
         
-    
-
-    
-
-    
-
-
-    
-
 }
