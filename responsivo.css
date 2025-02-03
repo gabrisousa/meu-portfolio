@@ -260,23 +260,22 @@
         align-items: center;
         justify-content: center ;
         flex-direction: column;
-        al
     }
 
     .form-contato input {
-        width: 80%;
+        width: 70%;
         height: 45px;
     
     }
 
     .form-contato textarea {
-        width: 80%;
+        width: 70%;
         height: 120px;
     }
     
     .send {
         height: 50px;
-        width: 80%;
+        width: 70%;
         font-size: 15px;
     }
 
@@ -284,8 +283,12 @@
         font-size: 35px;
     }
 
-    .desenvolvedor  {
-        font-size: 10px;
+    footer {
+        margin-top: 0;
+    }
+
+    .desenvolvedor h1 {
+        font-size: 15px;
     }
         
     
