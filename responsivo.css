@@ -170,11 +170,6 @@
         margin-top: 20px;
     }
 
-    
-
-    
-
-    
 
     .icones {
         display: block;
@@ -182,14 +177,6 @@
         align-items: center;
         justify-content: center;
         margin-top: -10px;
-        
-       
-        
-        
-        
-        
-        
-        
     }
 
     .icones i {
@@ -198,24 +185,17 @@
         margin-left: 0;
         margin-right: 0;
         margin-bottom: 0;
-        
     }
     
 
     .java {
-        
-        
         margin-top: 90px;
         margin-left: -90px;
         margin-right: 0;
         margin-bottom: 0;
-        
-        
     }
 
     .terceira-caixa {
-        
-        
         flex-direction: column;
         width: 100%;
         height: 2000px;
@@ -228,8 +208,6 @@
     } 
 
     .meus-projetos {
-        display: none;
-        
         display: flex;
         width: 100%;
         
@@ -245,6 +223,7 @@
     }
 
     .contatar {
+        width: 100%;
         margin-top: 90px;
     }
 
@@ -256,6 +235,7 @@
     }
 
     .form-contato {
+        width: 150%;
         display: flex;
         align-items: center;
         justify-content: center ;
@@ -263,19 +243,19 @@
     }
 
     .form-contato input {
-        width: 70%;
+        width: 90%;
         height: 45px;
     
     }
 
     .form-contato textarea {
-        width: 70%;
+        width: 90%;
         height: 120px;
     }
     
     .send {
         height: 50px;
-        width: 70%;
+        width: 90%;
         font-size: 15px;
     }
 
