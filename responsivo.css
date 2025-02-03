@@ -113,8 +113,23 @@
         
         
         
+        
             
     }
+
+    #icone2 {
+        font-size: 28px;
+        color: black;
+        background: white;
+        border: none;
+        width: 25px;
+        height: 20px;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    
     
     
     .menu-bar:hover {
