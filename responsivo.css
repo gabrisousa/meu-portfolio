@@ -1,8 +1,121 @@
-@media(max-width: 768px) {
-    * {
-        padding: 0;
-        margin: 0;
+* {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+
+}
+
+@media (max-width: 1338px)  {
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    header h1 {
+        display: flex;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        min-width: 20%;
+        
+        
+    }
+
+    .menu {
+        font-size: 20px;
+        margin: 0;
+        position: relative;
+        right: -5%;
+        gap: 30px;
+    }
+
+
+
+    .caixa {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .caixa-principal {
+        width: 100%;
+        gap: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .nome, .titulo-perfil, .git i, .link i, .whats i {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .caixa-secundaria {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .caixa-sobre {
+        margin: 0;
+        text-align: center;
+        height: 740px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 105%;
+        background-color: aquamarine;
+    }
+
+    .caixa-sobre h1 {
+        font-size: 40px;
+        margin: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .caixa-sobre p {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        font-size: 60px;
+    }
+
+    .java {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+
+    
+
+    
+
+    
+
+}
+
+
+
+@media(max-width: 768px) {
+    
 
     .caixa{
         width: 100%;
@@ -136,7 +249,9 @@
     header h1 {
         margin-left: 0;
         font-size: 25px;
-        text-align: center;
+        display: flex;
+        
+        
     }
 
     .caixa-secundaria {
