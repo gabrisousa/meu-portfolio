@@ -262,6 +262,14 @@ header h1 {
     margin-top: 90px;
 }
 
+.resident4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .re4 {
     background-color: black;
     height: 200px;
@@ -272,6 +280,258 @@ header h1 {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 
+
+}
+
+.tecnologias-re4 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+#html {
+    color: orangered;
+
+}
+
+#css {
+    color: rgb(31, 31, 231);
+
+}
+
+#java {
+    color: yellow;
+
+}
+
+.tecnologias-pokemon {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+.Pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Mario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.Fnaf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.Spotify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.Temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.Olimpiadas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#html2 {
+    color: orangered;
+
+}
+
+#css2 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java2 {
+    color: yellow;
+
+}
+
+.tecnologias-mario {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+#html3 {
+    color: orangered;
+
+}
+
+#css3 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java3 {
+    color: yellow;
+
+}
+
+.tecnologias-fnaf {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+#html4 {
+    color: orangered;
+
+}
+
+#css4 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java4 {
+    color: yellow;
+
+}
+
+.tecnologias-star {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+#html5 {
+    color: orangered;
+
+}
+
+#css5 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java5 {
+    color: yellow;
+
+}
+
+.tecnologias-spot {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+#html6 {
+    color: orangered;
+
+}
+
+#css6 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java6 {
+    color: yellow;
+
+}
+
+.tecnologias-olimpiadas {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+#html7 {
+    color: orangered;
+
+}
+
+#css7 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java7 {
+    color: yellow;
+
+}
+
+.tecnologias-temp {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
+#html8 {
+    color: orangered;
+
+}
+
+#css8 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java8 {
+    color: yellow;
 
 }
 
