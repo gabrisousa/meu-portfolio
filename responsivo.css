@@ -95,9 +95,12 @@
         font-size: 60px;
     }
 
+    
+
     .java {
         display: flex;
         justify-content: center;
+        margin-right: 40px;
     }
 
     
@@ -297,7 +300,7 @@
         align-items: center;
         justify-content: center;
         margin-top: -10px;
-        margin-left: 70px;
+        margin-left: 20px;
     }
 
     .icones i {
