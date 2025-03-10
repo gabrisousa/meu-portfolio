@@ -229,7 +229,7 @@ header h1 {
     align-items: center;
     flex-direction: column;
     background-size: cover;
-    height: 120vh;
+    height: 150vh;
     padding: 100px;
     background-color: rgb(11, 35, 45);
 
@@ -369,6 +369,14 @@ header h1 {
 
 
 .Olimpiadas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Task {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -535,6 +543,40 @@ header h1 {
 
 }
 
+#html9 {
+    color: orangered;
+
+}
+
+#css9 {
+    color: rgb(31, 31, 231);
+
+}
+
+#java9 {
+    color: yellow;
+
+}
+
+#react {
+    height: 40px;
+}
+
+#vite {
+    height: 40px;
+}
+
+
+
+.tecnologias-task {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    
+}
+
 
 .re4:hover {
     transform: scale(1.05);
@@ -561,6 +603,7 @@ header h1 {
         inset 0 0 50px rgba(255, 255, 255, 0.2);
     transition: all 0.3s ease-in-out;
 }
+
 
 .mario {
     background-color: black;
@@ -687,6 +730,28 @@ header h1 {
 
 }
 
+.Task-list {
+    background-color: black;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+
+.Task-list:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
+        inset 0 0 50px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
 .logo-re4 {
 
     height: 50px;
@@ -720,6 +785,10 @@ header h1 {
 .logo-previsao {
 
     height: 150px;
+}
+
+.logo-task {
+    height: 150px;    
 }
 
 .quarta-caixa {
