@@ -197,12 +197,8 @@ header h1 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    color: blue;
     z-index: -1;
-    
     width: 250px;
-    
-    
     gap: 20px;
     font-size: 100px;
     margin-right: 50px;
@@ -917,4 +913,5 @@ footer {
 .desenvolvedor {
     font-size: 17px;
     text-decoration: none;
+
 }
