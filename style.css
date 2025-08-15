@@ -21,6 +21,7 @@ header {
     height: 80px;
     padding: 15px;
     background-color: rgb(22, 22, 22);
+    position: fixed;
 }
 
 .menu-bar {
@@ -742,6 +743,7 @@ header h1 {
 
 
 }
+
 
 
 
